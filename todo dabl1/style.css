@@ -1,0 +1,115 @@
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.4;
+  font-weight: 400;
+  color: #4A4A4A;
+  background: #ECF3F7;
+  max-width: 600px;
+  width: 100%;
+  margin: 40px auto;
+}
+
+div.box {
+	width:100%;
+	height:50px;
+    margin:0 2px 2px 0;
+    border: 1px solid #FFFFFF;
+
+}
+
+.add {
+    width: 100%; 
+    height:50px;
+    background: #FFFFFF;
+    margin:25px 2px 2px 0;
+   }
+
+input[type="text"] {
+    border: none;
+    width: 60%; 
+    height:40px;
+    margin:5px;
+
+}
+
+input[type="checkbox"] {
+    position: relative;
+    float: left;
+    height: 50px;
+    border-right: 2px solid #FFFFFF;
+    text-align: center;
+    z-index: 13;
+    margin-left: 25px;
+}
+.txt{
+    
+    width: 80%;
+    color:  #FFFFFF;
+}
+
+button {
+    width: 10%; 
+    height: 35px; 
+    border: none; 
+    display: block;
+    color: #FFFFFF;
+	font-weight: 500;
+    line-height: 35px;
+    background: #26A69A;
+    border-radius: 2px;
+    border-bottom: 2px solid #00897B;
+    float: right;
+    margin:8px 10px 2px 0;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none; 
+}
+
+li {
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #FFFFFF;
+    text-align: center;
+    z-index: 13;
+}
+
+.colorRed {
+	background-color: brown;
+}
+.colorPink {
+    background-color: pink;
+}
+.colorPurple {
+    background-color: purple;
+}
+.colorBlue {
+    background-color: blue;
+}
+.colorGreen {
+    background-color: green;
+}
+.colorYellow{
+background-color: yellow;
+}
+.checkbox {
+    position: relative;
+    float: left;
+    width: 10%;
+    height: 100%;
+    border-right: 1px solid #FFFFFF;
+}
+.box {
+	width:15%;
+    margin:0 2px 2px 0;
+  
+}
+
+.strike {
+    text-decoration: line-through;
+  }

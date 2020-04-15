@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Todolist</title>
+     <link rel="stylesheet" type="text/css" href="style.css">
+  
+  	</script>
+ </head>
+
+<body>
+<form id="container">
+	<ul id="todoList" class="todoList">
+	<div  class="box" id="box">
+		<li class="colorRed">
+		<div class="checkbox">
+		<input type="checkbox"> 
+	   </div>
+		<p class="txt"id="txt"> Todo item 1 </p>
+		</li>
+	</div>
+     <div class="box" id="box">
+		<li class="colorPink">
+		<div class="checkbox">
+		<input type="checkbox"> 
+	   </div>
+		<p class="txt"id="txt"> Todo item 2 </p>
+	    </li>
+	 </div>
+	 <div class="box" id="box">
+		<li class="colorPurple">
+		<div class="checkbox">
+		<input type="checkbox"> 
+	   </div>
+		<p class="txt" id="txt"> Todo item 3 </p>
+	    </li>
+	 </div>
+	</ul>
+</form>
+
+<form class="add" id="add">
+<label for="todo"></label>
+<input type="text" class="newItem" id="newItem" name="todo" value="" placeholder="Add New Item" />
+
+			<input type="radio" class="colorRed">
+			<input type="radio" class="colorPink">
+			<input type="radio" class="colorPurple">
+			<input type="radio" class="colorBlue">
+			<input type="radio" class="colorGreen">
+			<input type="radio" class="colorYellow">
+
+<input type="submit" id="addItem" class="addItem" value="Add" />
+</form>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<script src="script.js"></script>
+</body>
+
+</html>
